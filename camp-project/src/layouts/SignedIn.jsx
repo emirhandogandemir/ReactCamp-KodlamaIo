@@ -1,11 +1,11 @@
 import React from "react";
 import {
-  Button,
+  
   Dropdown,
-  DropdownItem,
+
   Image,
   Menu,
-  MenuMenu,
+ 
 } from "semantic-ui-react";
 
 export default function SignedIn({signOut}) {
