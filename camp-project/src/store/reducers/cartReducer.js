@@ -10,6 +10,7 @@ export default function cartReducer(state=initialState,{type,payload}){
 
     switch (type) {
         case ADD_TO_CART:
+            // şuanki statedeki cartItemslara bak bul olan productlardan id , action ile gelen id ye eşit ise
             let product = state.cartItems.find(c=>c.product.id===payload.id)
           if (product) {
              product.quantity++;
